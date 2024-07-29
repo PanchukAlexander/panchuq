@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/panchuq/public_html/git
+    - /bin/cp -R 2.0 $DEPLOYPATH
